@@ -420,9 +420,11 @@ button {
   .image-section-footer .buttons .download:hover {
     background: #b18bdd;
   }
-  .buttons {
-    padding-top: 0;
+  .image-section-footer .buttons {
     padding-right: 165px;
+  }
+  .buttons .download .footer-version {
+    padding-top: 0;
     opacity: 1;
   }
 }
