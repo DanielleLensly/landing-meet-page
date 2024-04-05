@@ -1,6 +1,6 @@
 @font-face {
   font-family: RedHatDisplay;
-  src: url(assets/fonts/RedHatDisplay-VariableFont_wght.ttf);
+  src: url(starter-code/assets/fonts/RedHatDisplay-VariableFont_wght.ttf);
 }
 
 /**/
@@ -32,7 +32,7 @@
 
 .hero-banner .hero-banner-left {
   width: 50%;
-  background-image: url(assets/desktop/image-hero-left.png);
+  background-image: url(starter-code/assets/desktop/image-hero-left.png);
   background-size: contain;
   background-repeat: no-repeat;
   height: 170px;
@@ -40,7 +40,7 @@
 
 .hero-banner .hero-banner-right {
   width: 50%;
-  background-image: url(assets/desktop/image-hero-right.png);
+  background-image: url(starter-code/assets/desktop/image-hero-right.png);
   background-size: contain;
   background-repeat: no-repeat;
   height: 170px;
@@ -103,7 +103,7 @@ button {
 }
 
 .what-is-it {
-  background: #855FB1;
+  background: #855fb1;
   width: 139px;
 }
 
@@ -186,7 +186,7 @@ button {
   width: 100vw;
   color: #fafafa;
   height: 470px;
-  background: url("assets/mobile/image-footer.jpg");
+  background: url("/starter-code/starter-code/assets/mobile/image-footer.jpg");
   background-size: cover;
   position: relative;
 }
@@ -252,7 +252,7 @@ button {
 @media only screen and (min-width: 768px) {
   .hero-banner {
     height: 300px;
-    background-image: url(assets/tablet/image-hero.png);
+    background-image: url(starter-code/assets/tablet/image-hero.png);
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -309,7 +309,7 @@ button {
   .section-two {
     margin-top: 184px;
     height: 428px;
-    background: url("assets/tablet/image-footer.jpg");
+    background: url("starter-code/assets/tablet/image-footer.jpg");
   }
   .footer-text {
     padding: 0px 110px;
@@ -338,7 +338,7 @@ button {
     width: 500px;
     display: block;
     margin-left: -50px;
-    background-image: url(assets/desktop/image-hero-left.png);
+    background-image: url(starter-code/assets/desktop/image-hero-left.png);
   }
   .hero-banner .hero-banner-right {
     height: 394px;
@@ -347,7 +347,7 @@ button {
     position: absolute;
     right: 0;
     margin-right: -50px;
-    background-image: url(assets/desktop/image-hero-right.png);
+    background-image: url(starter-code/assets/desktop/image-hero-right.png);
   }
   .intro {
     margin-top: -350px;
@@ -363,8 +363,16 @@ button {
     width: 40%;
   }
 
-  .button {
+  button {
     font-size: 18px;
+  }
+
+  .intro .buttons .download:hover {
+    background: #71c0d4;
+  }
+
+  .buttons .what-is-it:hover {
+    background: #b18bdd;
   }
 
   .image-section {
@@ -380,10 +388,10 @@ button {
     font-size: 18px;
     width: 32%;
   }
-  
-.section-two {
-height: 308px;
-    background: url("assets/desktop/image-footer.jpg");
+
+  .section-two {
+    height: 308px;
+    background: url("starter-code/assets/desktop/image-footer.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -409,9 +417,12 @@ height: 308px;
     padding-top: 0;
     padding-right: 92px;
   }
+  .image-section-footer .buttons .download:hover {
+    background: #b18bdd;
+  }
   .buttons {
     padding-top: 0;
     padding-right: 165px;
     opacity: 1;
-}
+  }
 }
